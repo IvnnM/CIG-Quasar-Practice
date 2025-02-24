@@ -60,7 +60,7 @@ const removeTodo = () => {
 <template>
   <div class="flex justify-center">
     <div class="full-width q-pa-xl">
-      <h6 class="q-my-none q-mb-md">My TasksUpdate</h6>
+      <h6 class="q-my-none q-mb-md">My TasksUpdatePush</h6>
       <q-form ref="form" @submit="!selectedTodo ? addTodo() : updateTodo()">
         <div class="row gap">
           <q-input
