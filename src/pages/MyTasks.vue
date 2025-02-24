@@ -60,7 +60,7 @@ const removeTodo = () => {
 <template>
   <div class="flex justify-center">
     <div class="full-width q-pa-xl">
-      <h6 class="q-my-none q-mb-md">My Tasks</h6>
+      <h6 class="q-my-none q-mb-md">My TasksUpdate</h6>
       <q-form ref="form" @submit="!selectedTodo ? addTodo() : updateTodo()">
         <div class="row gap">
           <q-input
@@ -117,7 +117,7 @@ const removeTodo = () => {
     <q-card>
       <q-card-section class="row items-center">
         <div v-if="toMarkAsDone" class="q-ml-sm">
-          Are you sure you want to mark
+          Are you sure you want to markjelo
           <span class="text-green">"{{ toMarkAsDone.todo }}"</span> as done?
         </div>
         <div v-else class="q-ml-sm">
